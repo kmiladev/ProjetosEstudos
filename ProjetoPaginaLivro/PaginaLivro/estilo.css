@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'TAHOMA', sans-serif;
+} /*reset css para desconsiderar o estilo padrão do navegador // o * significa que vai aplicar em todos os elementos da página*/
+
+body{
+    background-color: #F5F5F5;
+    
+}
+
+div{
+    text-align: center;
+    border-top: 1px solid #d5d5d5;
+    padding: 50px; /*aplica para todos os lados*/
+    
+}
+
+img{
+    width: 190px;
+}
+
+h1{
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 24px;
+    margin: 15px;
+}
+
+h3{
+    font-size: 18px;
+    margin: 15px;
+}
+
+p{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 930px;
+    line-height: 30px;
+    
+}
+
+a{
+    font-size: 14px;
+    background-color: #49B970;
+    color: white;
+    border-radius: 25px 25px;     ;
+    padding: 10px 30px; /*(t/b)(r/l)*/
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+
+}
+
+span{
+    font-weight: bold;
+}
+
